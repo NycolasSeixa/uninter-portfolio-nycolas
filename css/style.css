@@ -338,3 +338,40 @@ nav .right a span {
     font-size: 16px;
   }
 }
+
+/* PORTFOLIO */
+.portfolio {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+/* PROJETO */
+.project {
+  margin-bottom: 60px;
+}
+
+.project h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.project p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* IMAGEM */
+.project img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
