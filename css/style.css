@@ -375,3 +375,35 @@ nav .right a span {
   border-radius: 10px;
   border: 1px solid #ccc;
 }
+
+#contato {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#form-contato input,
+#form-contato textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#form-contato button {
+  padding: 10px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+#feedback {
+  margin-top: 10px;
+  color: green;
+}
