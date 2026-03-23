@@ -185,6 +185,25 @@ nav .right a span {
   margin-bottom: 10px;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  margin: 40px 0 20px;
+}
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
 .testimony-section .group .person-details p {
   font-weight: 600;
 }
@@ -263,24 +282,23 @@ nav .right a span {
   }
 }
 
-  .hero-section .headshot img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+.hero-section .headshot img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
-  .testimony-section {
-    text-align: center;
-  }
+.testimony-section {
+  text-align: center;
+}
 
-  .testimony-section .group {
-    flex-direction: column;
-  }
+.testimony-section .group {
+  flex-direction: column;
+}
 
-  .contact-section .group {
-    flex-direction: column;
-  }
+.contact-section .group {
+  flex-direction: column;
 }
 
 @media (max-width: 600px) {
